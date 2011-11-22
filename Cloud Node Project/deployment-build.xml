@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<project name="project6" default="deployment" basedir="C:\Users\Kaustubh\PHP_Try\project6">
+	<description>
+		This is build file for Web Project 'project6' deployment.
+		INSTANTIATIONS J2EE plug-in generates it each time when you initiate deployment.
+		
+		You can use this file later for manual deployment, but keep in mind, that
+		classpath is hardcoded in it, so after changes in classpath you should
+		regenerate build file.
+	</description>
+
+	<target name="deployment">
+		<!-- cleanup -->
+		<delete dir="@dot"/>
+
+		<!-- create required directories -->
+		<mkdir dir="@dot/WEB-INF/lib"/>
+		<mkdir dir="@dot/WEB-INF/classes"/>
+
+		<!-- copy web project root -->
+		<copy todir="@dot">
+			<fileset dir="WebRoot">
+				<exclude name="**/*.java"/>
+				<exclude name="WEB-INF/lib/**"/>
+			</fileset>
+		</copy>
+
+		<!-- web project build-path -->
+		<copy todir="@dot/WEB-INF/lib">
+			<fileset dir="WebRoot/WEB-INF/lib"/>
+		</copy>
+
+		<!-- package deployment data to WAR -->
+		<jar destfile="project6.war">
+			<fileset dir="@dot">
+				<include name="**/*"/>
+			</fileset>
+		</jar>
+
+		<!-- copy deployment data -->
+		<move file="project6.war" todir="C:\eclipse\apache-tomcat-6.0.28\webapps"/>
+
+		<!-- cleanup -->
+		<delete dir="@dot"/>
+	</target>
+
+</project>
