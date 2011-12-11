@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+executed,command,org.eclipse.ui.ide,3.5.2.M20100113-0800,"org.eclipse.ui.project.buildAll",1323588508815
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1323588511722
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1323588512853
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1323588532732
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1323588538556
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1323588541559
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1323588543921
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1323588552018
+error,log,,,"Internal Error",1323588563442
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1323588569275
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.rename",1323588569286
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.refresh",1323588570989
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1323588575980
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1323588576846
+executed,command,org.eclipse.ui.ide,3.5.2.M20100113-0800,"org.eclipse.ui.project.cleanAction",1323588576858
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1323588577720
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1323588580207
+activated,view,org.eclipse.ui.ide,3.5.2.M20100113-0800,"org.eclipse.ui.views.ProblemView",1323588586704
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1323588588863
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1323588590072
+closed,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1323588596401
+stopped,bundle,org.eclipse.ecf.provider.r_osgi,3.1.0.v20100615-1451,"org.eclipse.ecf.provider.r_osgi",1323588597144
+stopped,bundle,ch.ethz.iks.r_osgi.remote,1.0.0.RC4_v20100615-1451,"ch.ethz.iks.r_osgi.remote",1323588597145
+stopped,bundle,org.eclipse.ecf.provider.jslp,3.0.0.v20100615-1451,"org.eclipse.ecf.provider.jslp",1323588597156
+stopped,bundle,ch.ethz.iks.slp,1.1.0.v20100615-1451,"ch.ethz.iks.slp",1323588597156

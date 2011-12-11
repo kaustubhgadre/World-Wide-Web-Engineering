@@ -1,0 +1,13 @@
+what,kind,bundleId,bundleVersion,description,time
+stopped,bundle,com.sysdeo.eclipse.tomcat,3.2.1,"com.sysdeo.eclipse.tomcat",1323588597857
+stopped,bundle,org.eclipse.jpt.eclipselink.ui,1.2.0.v200905310000,"org.eclipse.jpt.eclipselink.ui",1323588597979
+stopped,bundle,org.eclipse.jpt.eclipselink.core,1.2.0.v200905310000,"org.eclipse.jpt.eclipselink.core",1323588597979
+stopped,bundle,org.eclipse.jpt.ui,2.2.2.v200911250220,"org.eclipse.jpt.ui",1323588597982
+stopped,bundle,org.eclipse.jpt.core,2.2.1.v200908270220,"org.eclipse.jpt.core",1323588597982
+stopped,bundle,org.eclipse.jpt.db,1.2.102.v200911250220,"org.eclipse.jpt.db",1323588598043
+stopped,bundle,org.eclipse.datatools.enablement.jdt.classpath,1.0.1.v200909240342,"org.eclipse.datatools.enablement.jdt.classpath",1323588598043
+stopped,bundle,org.eclipse.jdt.apt.ui,3.3.200.v20090930-2100_R35x,"org.eclipse.jdt.apt.ui",1323588598065
+stopped,bundle,de.softproject.xe.pipeline,4.0.28503,"de.softproject.xe.pipeline",1323588598066
+stopped,bundle,de.softproject.xe,4.0.28758,"de.softproject.xe",1323588598066
+stopped,bundle,org.eclipse.datatools.enablement.sybase.asa.schemaobjecteditor.examples,2.5.0.200810071,"org.eclipse.datatools.enablement.sybase.asa.schemaobjecteditor.examples",1323588598186
+stopped,bundle,org.eclipse.datatools.sqltools.debugger.core.ui,1.0.0.v200906022302,"org.eclipse.datatools.sqltools.debugger.core.ui",1323588598232
